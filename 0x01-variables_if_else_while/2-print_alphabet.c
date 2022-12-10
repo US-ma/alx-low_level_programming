@@ -6,14 +6,10 @@
  */
 int main(void)
 {
-	char ascii = 97;
+	char low;
 
-	while (ascii < 123)
-	{
-		
-		putchar(ascii);
-		ascii = ascii + 1;
-	}
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
 	putchar(10);
 	return (0);
 }
