@@ -7,7 +7,7 @@
  * Description: Function to swap the value of two variable
  * Return:
  */
-void swap(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int tmp;
 
